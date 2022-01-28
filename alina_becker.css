@@ -1,0 +1,391 @@
+@font-face {
+  font-family: Chewy;
+  src: url("Chewy.ttf")
+}
+
+@media (max-width: 400px) and (orientation:portrait) {
+  div.bg-polkadots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("polkadot.svg");
+    background-size: 100pt;
+  }
+
+  div.usr-area {
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 10pt;
+    left: 20%;
+    bottom: 10pt;
+    right: 10pt;
+    border-style: solid;
+    border-width: 10pt;
+    border-color: #FCD0DA;
+    border-radius: 20pt;
+    background-color: #FFFFFF;
+
+    padding: 10pt;
+  }
+
+  div.usr-area h1 {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 15pt;
+    font-family: 'Chewy';
+    color: #200000;
+  }
+
+  div.usr-area p {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 9pt;
+    font-family: 'Chewy';
+    color: #5F5A5A;
+    margin-bottom: 20pt;
+  }
+
+  div.svg-alina-becker {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    height: 300pt;
+    width: 300pt;
+    transform: translate(-50%, -50%) rotate(270deg);
+
+    background-image: url('alina-becker.svg');
+    background-repeat: no-repeat;
+  }
+
+  div.lndscp-polkadot-block {
+    display: none;
+  }
+
+  div.svg-alina {
+    display: none;
+  }
+
+  div.svg-becker {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) and (orientation:portrait) {
+  div.bg-polkadots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("polkadot.svg");
+    background-size: 100pt;
+  }
+
+  div.usr-area {
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 10pt;
+    left: 20%;
+    bottom: 10pt;
+    right: 10pt;
+    border-style: solid;
+    border-width: 10pt;
+    border-color: #FCD0DA;
+    border-radius: 20pt;
+    background-color: #FFFFFF;
+
+    padding: 20pt;
+  }
+
+  div.usr-area h1 {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 20pt;
+    font-family: 'Chewy';
+    color: #200000;
+  }
+
+  div.usr-area p {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 10pt;
+    font-family: 'Chewy';
+    color: #5F5A5A;
+    margin-bottom: 20pt;
+  }
+
+  div.svg-alina-becker {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    height: 400pt;
+    width: 400pt;
+    transform: translate(-50%, -50%) rotate(270deg);
+
+    background-image: url('alina-becker.svg');
+    background-repeat: no-repeat;
+  }
+
+  div.lndscp-polkadot-block {
+    display: none;
+  }
+
+  div.svg-alina {
+    display: none;
+  }
+
+  div.svg-becker {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (orientation:portrait) {
+  div.bg-polkadots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("polkadot.svg");
+    background-size: 100pt;
+  }
+
+  div.usr-area {
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 10pt;
+    left: 20%;
+    bottom: 10pt;
+    right: 20%;
+    border-style: solid;
+    border-width: 10pt;
+    border-color: #FCD0DA;
+    border-radius: 20pt;
+    background-color: #FFFFFF;
+
+    padding: 20pt;
+  }
+
+  div.usr-area h1 {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 25pt;
+    font-family: 'Chewy';
+    color: #200000;
+  }
+
+  div.usr-area p {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 12pt;
+    font-family: 'Chewy';
+    color: #5F5A5A;
+    margin-bottom: 20pt;
+  }
+
+  div.svg-alina-becker {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    height: 400pt;
+    width: 400pt;
+    transform: translate(-50%, -50%) rotate(270deg);
+
+    background-image: url('alina-becker.svg');
+    background-repeat: no-repeat;
+  }
+
+  div.lndscp-polkadot-block {
+    display: none;
+  }
+
+  div.svg-alina {
+    display: none;
+  }
+
+  div.svg-becker {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) and (orientation:landscape) {
+  div.bg-polkadots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("polkadot.svg");
+    background-size: 100pt;
+  }
+
+  div.usr-area {
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 10pt;
+    left: 30%;
+    bottom: 10pt;
+    right: 30%;
+    border-style: solid;
+    border-width: 10pt;
+    border-color: #FCD0DA;
+    border-radius: 20pt;
+    background-color: #FFFFFF;
+
+    padding: 20pt;
+  }
+
+  div.usr-area h1 {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 25pt;
+    font-family: 'Chewy';
+    color: #200000;
+  }
+
+  div.usr-area p {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 12pt;
+    font-family: 'Chewy';
+    color: #5F5A5A;
+    margin-bottom: 20pt;
+  }
+
+  div.svg-alina-becker {
+    display:none;
+  }
+
+  div.lndscp-polkadot-block {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 100pt;
+  }
+
+  div.svg-alina {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    background-image: url('alina.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10pt;
+    height: 100pt;
+    width: 340pt;
+    transform: translate(-50%, 0) rotate(270deg);
+  }
+
+  div.svg-becker {
+    position: absolute;
+    top: 0;
+    left: 85%;
+    background-image: url('becker.svg');
+    background-repeat: no-repeat;
+    border-radius: 10pt;
+    height: 100pt;
+    width: 400pt;
+    transform: translate(-50%, 0) rotate(90deg);
+  }
+}
+
+@media (min-width: 1500px) and (orientation:landscape) {
+  div.bg-polkadots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("polkadot.svg");
+    background-size: 100pt;
+  }
+
+  div.usr-area {
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 10pt;
+    left: 35%;
+    bottom: 10pt;
+    right: 35%;
+    border-style: solid;
+    border-width: 10pt;
+    border-color: #FCD0DA;
+    border-radius: 20pt;
+    background-color: #FFFFFF;
+
+    padding: 20pt;
+  }
+
+  div.usr-area h1 {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 30pt;
+    font-family: 'Chewy';
+    color: #200000;
+  }
+
+  div.usr-area p {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-size: 15pt;
+    font-family: 'Chewy';
+    color: #5F5A5A;
+    margin-bottom: 20pt;
+  }
+
+  div.svg-alina-becker {
+    display:none;
+  }
+
+  div.lndscp-polkadot-block {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 100pt;
+    background-color: #FCD0DA;
+  }
+
+  div.svg-alina {
+    position: absolute;
+    top: 0;
+    left: 17.5%;
+    background-image: url('alina.svg');
+    background-repeat: no-repeat;
+    height: 100pt;
+    width: 400pt;
+    transform: translate(-50%, 0);
+  }
+
+  div.svg-becker {
+    position: absolute;
+    top: 0;
+    left: 82.5%;
+    background-image: url('becker.svg');
+    background-repeat: no-repeat;
+    height: 100pt;
+    width: 400pt;
+    transform: translate(-50%, 0);
+  }
+}
