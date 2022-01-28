@@ -3,6 +3,22 @@
   src: url("Chewy.ttf")
 }
 
+::-webkit-scrollbar {
+  width: 10pt;
+}
+
+::-webkit-scrollbar-track {
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FCD0DA;
+  border-radius: 6pt;
+  border: 3pt solid transparent;
+  background-clip: content-box;
+}
+
 @media (max-width: 400px) and (orientation:portrait) {
   div.bg-polkadots {
     position: fixed;
